@@ -18,3 +18,16 @@ console.log(capital.substring(0, 5))
 var string = 'Hello world, this is string';
 string = string.replace("string", "me")
 console.log(string.replace("world", "Tbilisi"))
+
+
+
+
+//exercise
+
+var age = 50
+var n = window.prompt("შეიყვანეთ თქვენი ასაკი")
+if (n >=18){
+    document.writeln("თქვენ ხართ სრულწლოვანი")
+}else {
+    document.writeln("თქვენ არ ხართ სრულწლოვანი")
+}
